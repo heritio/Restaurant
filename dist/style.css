@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title{
+    font-size:70px;
+    color: white;
+    height: 100px;
+    background: url(../images/pizza.jpg);
+    text-align: center;
+    position: fixed;
+    display: block;
+    width: 100%;
+    top: 0;
+}
+
+.stylish{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: burlywood;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.clickable{
+    cursor: pointer;
+}
+.clickable:hover{
+    color: rgb(158, 78, 21);
+}
+
+#section-1{
+   text-align: center;
+   margin-top: 190px;
+}
+#section-1 h2{
+  margin-top: 120px;
+}
+
+#section-1 img{
+    height: 250px;
+    width: 250px;
+    margin: 50px auto;
+}
+#section-1 div{
+    margin-top: 50px;
+}
+
+#section-2{
+  text-align: center;
+  margin-top: 190px;
+}
+#section-2 h2{
+    margin-top: 120px;
+  }
+
+#section-2 img{
+    height: 250px;
+    width: 250px;
+    margin: 50px auto;
+    
+}
+
+#section-2 div{
+    margin-top: 50px;
+}
+
+#section-3{
+    text-align: center;
+    margin-top: 190px;
+  }
+  #section-3 h2{
+      margin-top: 120px;
+    }
+  
+  #section-3 img{
+      height: 250px;
+      width: 250px;
+      margin: 50px auto;
+  }
+  
+  #section-3 div{
+      margin-top: 50px;
+  }
+
+
+#section-4{
+    margin: 60px auto;
+    margin-top: 190px;
+    text-align: center;
+    
+    width: 50%;
+}
+
+#section-4 img{
+    height: 250px;
+      width: 250px;
+      margin: 50px auto;
+}
+
+
+
+footer{
+    color: white;
+    height: 100px;
+    width: 100%;
+    margin: 50px auto;
+    bottom: 0;
+    background-color: black;
+}
+
+footer p{
+    width: 80%;
+    margin:  0 auto;
+    padding-top: 0;
+}
