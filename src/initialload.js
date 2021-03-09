@@ -27,7 +27,7 @@ function initialLoad(){
     let aboutImg = document.createElement("img");
     titleh2.textContent = "About Us";
     infoText.textContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.";
-    aboutImg.src = "../images/barb.jpg";
+    aboutImg.src = "./images/barb.jpg";
     section1.append(titleh2);
     section1.append(infoText);
     section1.append(aboutImg);

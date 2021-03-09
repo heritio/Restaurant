@@ -7,7 +7,7 @@ function dinnerSection(){
     let menuImg = document.createElement("img");
     let divText = document.createElement("div");
     titleh2.textContent = "Dinner Menu";
-    menuImg.src = "../images/pizza.jpg";
+    menuImg.src = "./images/pizza.jpg";
     divText.textContent = "dish 1: dish explanation dish 3: dish explanation dish 3: dish explanation";
     sectionDinner.append(titleh2);
     sectionDinner.append(menuImg);
